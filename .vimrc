@@ -137,8 +137,15 @@ Bundle 'tpope/vim-surround'
 
 " :: Coding
 Bundle 'Valloric/YouCompleteMe'
+"Bundle 'autoload_cscope.vim'
+"Bundle 'mattn/webapi-vim'
 
 " :: Decorator
+Bundle 'bling/vim-airline'
+Bundle 'airblade/vim-gitgutter'
+"Bundle 'majutsushi/tagbar'
+Bundle 'chriskempson/base16-vim'
+Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'scrooloose/nerdtree'
 
 " :: Language support
