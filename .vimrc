@@ -139,7 +139,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'Valloric/YouCompleteMe'
 
 " :: Decorator
-Bundle 'scrooloose/nerdtree
+Bundle 'scrooloose/nerdtree'
 
 " :: Language support
 Bundle 'tell-k/vim-autopep8'
