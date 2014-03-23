@@ -152,6 +152,7 @@ Bundle 'scrooloose/nerdtree'
 
 " :: Command
 Bundle 'tpope/vim-fugitive'
+Bundle  'sjl/gundo.vim'
 
 " :: Language support
 Bundle 'tell-k/vim-autopep8'
