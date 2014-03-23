@@ -128,6 +128,8 @@ Bundle 'gmarik/vundle'
 
 " :: Basic editing or moving
 Bundle 'Lokaltog/vim-easymotion'
+" :: File transfer
+Bundle 'kien/ctrlp.vim'
 " Produce increasing/decreasing columns of numbers, dates, or daynames
 Bundle 'indent-motion'
 " extended % matching for HTML, LaTeX, and many other languages
