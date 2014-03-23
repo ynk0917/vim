@@ -3,6 +3,7 @@
 set nowritebackup
 set t_Co=256
 syntax on
+syntax enable
 set sw=4
 set ruler
 set softtabstop=4
@@ -21,7 +22,6 @@ set enc=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
 set smarttab
-colors wombat256
 
 setl omnifunc=nullcomplete#Complete
 autocmd FileType * setl omnifunc=nullcomplete#Complete
@@ -66,11 +66,14 @@ autocmd FileType tex map <F7> :s@^@%<CR>
 autocmd FileType tex map <F8> :s@^%@@<CR>
 autocmd FileType tex colors h80
 if has("gui_running")
+    set background=light
     if has("win32")
         set gfn=Inconsolata:h14
     elseif has("mac")
         set gfn=Monaco:h14
     endif
+else
+    set background=dark
 endif
 if has("win32")
 	source $VIMRUNTIME/delmenu.vim
@@ -148,6 +151,7 @@ Bundle 'bling/vim-airline'
 Bundle 'airblade/vim-gitgutter'
 "Bundle 'majutsushi/tagbar'
 Bundle 'chriskempson/base16-vim'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'scrooloose/nerdtree'
 
@@ -165,3 +169,6 @@ if iCanHazVundle == 0
     :BundleInstall
     :qall
 endif
+let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
+colorscheme solarized
