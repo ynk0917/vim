@@ -139,6 +139,7 @@ Bundle 'tpope/vim-surround'
 
 " :: Coding
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'Townk/vim-autoclose'
 "Bundle 'autoload_cscope.vim'
 "Bundle 'mattn/webapi-vim'
 
