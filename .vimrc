@@ -122,4 +122,32 @@ endif
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-"------------------------
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+" :: Basic editing or moving
+Bundle 'Lokaltog/vim-easymotion'
+" Produce increasing/decreasing columns of numbers, dates, or daynames
+Bundle 'indent-motion'
+" extended % matching for HTML, LaTeX, and many other languages
+Bundle 'matchit.zip'
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-surround'
+
+" :: Coding
+Bundle 'Valloric/YouCompleteMe'
+
+" :: Decorator
+Bundle 'scrooloose/nerdtree
+
+" :: Language support
+Bundle 'tell-k/vim-autopep8'
+Bundle 'scrooloose/syntastic'
+
+if iCanHazVundle == 0
+    echo "Installing Bundles, please ignore key map error messages"
+    echo ""
+    :BundleInstall
+    :qall
+endif
