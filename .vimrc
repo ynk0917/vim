@@ -148,6 +148,9 @@ Bundle 'chriskempson/base16-vim'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'scrooloose/nerdtree'
 
+" :: Command
+Bundle 'tpope/vim-fugitive'
+
 " :: Language support
 Bundle 'tell-k/vim-autopep8'
 Bundle 'scrooloose/syntastic'
