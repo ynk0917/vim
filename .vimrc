@@ -141,6 +141,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-surround'
 
 " :: Coding
+Bundle 'SirVer/ultisnips'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'Townk/vim-autoclose'
 "Bundle 'autoload_cscope.vim'
