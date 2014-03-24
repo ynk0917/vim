@@ -119,6 +119,7 @@ Bundle 'Lokaltog/vim-easymotion'
 " :: File transfer
 Bundle 'kien/ctrlp.vim'
 " Produce increasing/decreasing columns of numbers, dates, or daynames
+Bundle 'YankRing.vim'
 Bundle 'indent-motion'
 " extended % matching for HTML, LaTeX, and many other languages
 Bundle 'matchit.zip'
