@@ -23,13 +23,6 @@ set termencoding=utf-8
 set fileencoding=utf-8
 set smarttab
 
-setl omnifunc=nullcomplete#Complete
-autocmd FileType * setl omnifunc=nullcomplete#Complete
-autocmd FileType javascript setl omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType xml setl omnifunc=xmlcomplete#CompleteTags
-autocmd FileType php setl omnifunc=phpcomplete#CompletePHP
-autocmd FileType c setl omnifunc=ccomplete#Complete
-
 autocmd FileType python set ai et sw=4 ts=4
 autocmd FileType css set noai noci nosmarttab nosmartindent
 
