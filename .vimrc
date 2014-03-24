@@ -145,6 +145,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
 Bundle 'Valloric/YouCompleteMe'
 "Bundle 'autoload_cscope.vim'
+Bundle 'scrooloose/nerdcommenter'
 "Bundle 'mattn/webapi-vim'
 
 " :: Decorator
