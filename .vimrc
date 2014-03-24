@@ -56,14 +56,6 @@ nmap <S-Tab> gT
 autocmd BufRead,BufNewFIle *.py nmap <F2> :%w !python<CR>
 autocmd BufRead,BufNewFIle *.rb nmap <F2> :%w !ruby<CR>
 autocmd BufRead,BufNewFIle *.java nmap <F2> :!ant<CR>
-autocmd FileType python map <F7> :s/^/#<CR>
-autocmd FileType python map <F8> :s/^#//<CR>
-autocmd FileType cpp map <F7> :s@^@//<CR>
-autocmd FileType cpp map <F8> :s@^//@@<CR>
-autocmd FileType java map <F7> :s@^@//<CR>
-autocmd FileType java map <F8> :s@^//@@<CR>
-autocmd FileType tex map <F7> :s@^@%<CR>
-autocmd FileType tex map <F8> :s@^%@@<CR>
 autocmd FileType tex colors h80
 if has("gui_running")
     set background=light
