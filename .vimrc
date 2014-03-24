@@ -139,11 +139,11 @@ Bundle 'indent-motion'
 Bundle 'matchit.zip'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-surround'
+Bundle 'Raimondi/delimitMate'
 
 " :: Coding
 Bundle 'SirVer/ultisnips'
 Bundle 'Valloric/YouCompleteMe'
-Bundle 'Townk/vim-autoclose'
 "Bundle 'autoload_cscope.vim'
 "Bundle 'mattn/webapi-vim'
 
