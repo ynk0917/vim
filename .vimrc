@@ -160,6 +160,8 @@ if iCanHazVundle == 0
     :BundleInstall
     :qall
 endif
+
+" Setting up solarized color theme
 let g:solarized_termtrans = 1
 let g:solarized_termcolors=256
 colorscheme solarized
