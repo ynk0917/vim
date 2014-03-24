@@ -51,14 +51,11 @@ autocmd BufRead,BufNewFIle *.rb nmap <F2> :%w !ruby<CR>
 autocmd BufRead,BufNewFIle *.java nmap <F2> :!ant<CR>
 autocmd FileType tex colors h80
 if has("gui_running")
-    set background=light
     if has("win32")
         set gfn=Inconsolata:h14
     elseif has("mac")
         set gfn=Monaco:h14
     endif
-else
-    set background=dark
 endif
 if has("win32")
 	source $VIMRUNTIME/delmenu.vim
@@ -164,4 +161,5 @@ endif
 " Setting up solarized color theme
 let g:solarized_termtrans = 1
 let g:solarized_termcolors=256
+set background=dark
 colorscheme solarized
