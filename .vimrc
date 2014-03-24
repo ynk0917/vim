@@ -147,6 +147,7 @@ Bundle 'Valloric/YouCompleteMe'
 "Bundle 'autoload_cscope.vim'
 Bundle 'scrooloose/nerdcommenter'
 "Bundle 'mattn/webapi-vim'
+Bundle 'tpope/vim-abolish'
 
 " :: Decorator
 Bundle 'bling/vim-airline'
