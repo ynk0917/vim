@@ -163,3 +163,8 @@ let g:solarized_termtrans = 1
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+
+" --- YouCompleteMe
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_key_list_select_completion = ['<TAB>']
+let g:ycm_key_list_previous_completion=['<S-TAB>']
