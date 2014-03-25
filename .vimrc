@@ -167,6 +167,7 @@ colorscheme solarized
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_key_list_select_completion = ['<TAB>']
 let g:ycm_key_list_previous_completion=['<S-TAB>']
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " --- vim-gitgutter
 let g:gitgutter_enabled = 1
