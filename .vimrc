@@ -209,3 +209,12 @@ elseif executable('ack-grep')
 elseif executable('ack')
     set grepprg=ack\ -H\ --nocolor\ --nogroup\ --column\ --smart-case\ --follow
 endif
+
+" Setting up ctrlp
+let g:ctrlp_map = '<c-f>'
+if executable('ag')
+    " Use ag over grep
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g "'
+    " ag is fast enough that CtrlP doesn't need to cache
+    let g:ctrlp_use_caching = 0
+endif"
