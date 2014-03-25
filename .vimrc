@@ -171,3 +171,8 @@ let g:ycm_key_list_previous_completion=['<S-TAB>']
 
 " --- vim-gitgutter
 let g:gitgutter_enabled = 1
+
+" --- Ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+"let g:UltiSnipsListSnippets="<c-s-tab>"
+let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips/UltiSnips"
