@@ -193,3 +193,10 @@ let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
 ""whether to show balloons
 let g:syntastic_enable_balloons = 1
+
+" Setting up ack
+let g:ack_autoclose = 1
+" Use silversearcher for better performance
+let g:ackprg = "ag --nogroup --nocolor --column"
+let g:ackhighlight = 1
+nnoremap <silent> <Leader>g :Ack<CR>
