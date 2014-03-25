@@ -200,3 +200,12 @@ let g:ack_autoclose = 1
 let g:ackprg = "ag --nogroup --nocolor --column"
 let g:ackhighlight = 1
 nnoremap <silent> <Leader>g :Ack<CR>
+
+" Setting up grep
+if executable('ag')
+    set grepprg=ag\ --nogroup\ --nocolor
+elseif executable('ack-grep')
+    set grepprg=ack-grep\ -H\ --nocolor\ --nogroup\ --column\ --smart-case\ --follow
+elseif executable('ack')
+    set grepprg=ack\ -H\ --nocolor\ --nogroup\ --column\ --smart-case\ --follow
+endif
