@@ -136,7 +136,7 @@ Bundle 'tpope/vim-commentary'
 " :: Decorator
 Bundle 'bling/vim-airline'
 Bundle 'airblade/vim-gitgutter'
-"Bundle 'majutsushi/tagbar'
+Bundle 'majutsushi/tagbar'
 Bundle 'chriskempson/base16-vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
@@ -176,3 +176,7 @@ let g:gitgutter_enabled = 1
 let g:UltiSnipsExpandTrigger="<c-j>"
 "let g:UltiSnipsListSnippets="<c-s-tab>"
 let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips/UltiSnips"
+
+" --- TagBar
+nmap <silent> <F6> :TagbarToggle<CR>
+let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
