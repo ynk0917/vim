@@ -211,7 +211,7 @@ elseif executable('ack')
 endif
 
 " Setting up ctrlp
-let g:ctrlp_map = '<c-f>'
+let g:ctrlp_map = '<c-l>'
 if executable('ag')
     " Use ag over grep
     let g:ctrlp_user_command = 'ag %s -l --nocolor -g "'
