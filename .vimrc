@@ -114,6 +114,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-easymotion'
 " :: File transfer
 Bundle 'kien/ctrlp.vim'
+Bundle 'airblade/vim-rooter'
 " Produce increasing/decreasing columns of numbers, dates, or daynames
 Bundle 'YankRing.vim'
 Bundle 'indent-motion'
