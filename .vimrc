@@ -151,6 +151,7 @@ Bundle  'sjl/gundo.vim'
 Bundle 'tell-k/vim-autopep8'
 Bundle 'scrooloose/syntastic'
 Bundle 'groovy.vim'
+Bundle 'tfnico/vim-gradle'
 
 if iCanHazVundle == 0
     echo "Installing Bundles, please ignore key map error messages"
