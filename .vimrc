@@ -90,6 +90,7 @@ endfunction
 
 au BufRead,BufNewFile *.py call PyHeader()
 au BufRead,BufNewFile *.sh call BashHeader()
+au BufRead,BufNewFile *.gradle setf groovy
 
 
 "setting up vundle if not installed
