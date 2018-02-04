@@ -46,7 +46,7 @@ nmap <C-n> :cnext <CR>
 nmap <C-p> :cprevious <CR>
 nmap <Tab> gt
 nmap <S-Tab> gT
-autocmd BufRead,BufNewFIle *.py nmap <F2> :%w !python<CR>
+autocmd BufRead,BufNewFIle *.py nmap <F2> :%w !python3<CR>
 autocmd BufRead,BufNewFIle *.rb nmap <F2> :%w !ruby<CR>
 autocmd BufRead,BufNewFIle *.java nmap <F2> :!ant<CR>
 autocmd FileType tex colors h80
