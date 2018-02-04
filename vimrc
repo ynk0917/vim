@@ -205,7 +205,7 @@ let g:ack_autoclose = 1
 " Use silversearcher for better performance
 let g:ackprg = "ag --nogroup --nocolor --column"
 let g:ackhighlight = 1
-nnoremap <silent> <Leader>g :Ack<CR>
+nnoremap <silent> ,g :Ack <CR>
 let g:cpp_concepts_highlight = 1
 
 " Setting up grep
