@@ -154,6 +154,7 @@ Bundle 'tell-k/vim-autopep8'
 Bundle 'scrooloose/syntastic'
 Bundle 'groovy.vim'
 Bundle 'tfnico/vim-gradle'
+Bundle 'bfrg/vim-cpp-modern'
 
 if iCanHazVundle == 0
     echo "Installing Bundles, please ignore key map error messages"
@@ -205,6 +206,7 @@ let g:ack_autoclose = 1
 let g:ackprg = "ag --nogroup --nocolor --column"
 let g:ackhighlight = 1
 nnoremap <silent> <Leader>g :Ack<CR>
+let g:cpp_concepts_highlight = 1
 
 " Setting up grep
 if executable('ag')
