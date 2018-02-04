@@ -127,6 +127,7 @@ Bundle 'Raimondi/delimitMate'
 
 " :: Coding
 Bundle 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 Bundle 'Valloric/YouCompleteMe'
 "Bundle 'autoload_cscope.vim'
 Bundle 'scrooloose/nerdcommenter'
