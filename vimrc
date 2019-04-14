@@ -144,6 +144,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'scrooloose/nerdtree'
 Bundle "nathanaelkane/vim-indent-guides"
+Bundle 'nvie/vim-flake8'
 
 " :: Command
 Bundle 'tpope/vim-fugitive'
